@@ -1,0 +1,42 @@
+main {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: CMUSerif;
+}
+
+p {
+  font-family: CMUBright;
+  text-align: justify;
+}
+
+ul {
+  text-align: justify;
+}
+
+.blogtitle {
+  margin: 0em;
+}
+
+.postdate {
+  margin: 0em;
+  font-size: 1em;
+}
+
+.postpreview {
+  text-decoration: none;
+}
+
+.postpreview div {
+  color: black;
+  padding: 1ex 1em 1ex 1em;
+}
+
+.postpreview div:hover {
+  background-color: rgb(225, 238, 255);
+}
+
+.postpreview:hover h2 {
+  text-decoration: underline;
+}
